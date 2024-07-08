@@ -9,12 +9,16 @@
 </head>
 <body>
   <h1>Word Counter</h1>
-  <button class="btn-element"id="bg-switch">Dark Mode</button>
+  <div class="btn-wrapper">
+    <button class="btn-element"id="bg-switch">Dark Mode</button>
+  </div>
   <div id="error" class="error"></div>
   <form>
     <textarea class="text-field" placeholder="Place your words here..."></textarea>
-    <button class="btn-element" type="submit">Submit</button>
-    <button class="btn-element" type="reset">Clear</button>
+    <div class="btn-wrapper">
+      <button class="btn-element" type="submit">Submit</button>
+      <button class="btn-element" type="reset">Clear</button>
+    </div>
   </form>
   <div id="word-count"></div>
   <script src="main.js"></script>
