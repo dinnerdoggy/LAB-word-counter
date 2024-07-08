@@ -1,0 +1,17 @@
+body {
+  background-color: white;
+  color: black;
+}
+
+
+.dark-mode {
+  background-color: #212124;
+  color: #e6e6e6;
+  .btn-element {
+    background-color: #576CBC;
+    color: #e6e6e6;
+  }
+  .text-field {
+    background-color: #A5D7E8;
+  }
+}
