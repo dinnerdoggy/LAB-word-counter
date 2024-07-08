@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- vv bootstrap link vv -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- ^^ bootstrap link ^^ -->
   <link rel="stylesheet" href="main.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,18 +12,40 @@
 </head>
 <body>
   <h1>Word Counter</h1>
-  <div class="btn-wrapper">
-    <button class="btn-element"id="bg-switch">Dark Mode</button>
-  </div>
+
   <div id="error" class="error"></div>
   <form>
-    <textarea class="text-field" placeholder="Place your words here..."></textarea>
-    <div class="btn-wrapper">
+    <div class="container">
+      <div class="btn-wrapper">
+        <button class="btn btn-primary" id="bg-switch">Dark Mode</button>
+      </div>
+      <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2"></label>
+      </div>
+      <div class = "btn-wrapper" class="d-grid gap-2 d-md-block">
+        <button class="btn btn-primary" type="submit">Submit</button>
+        <button class="btn btn-primary" type="reset">Clear</button>
+      </div>
+
+
+
+    </div>
+    <!-- buttons before using bootstrap
+    
+    <textarea class="text-field" placeholder="Place your words here..."></textarea> -->
+    <!-- <div class="btn-wrapper">
       <button class="btn-element" type="submit">Submit</button>
       <button class="btn-element" type="reset">Clear</button>
-    </div>
+    </div> -->
   </form>
   <div id="word-count"></div>
   <script src="main.js"></script>
+  <!--bootstrap scripts start here-->
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--bootstrap scripts end here-->
 </body>
 </html>

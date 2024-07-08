@@ -15,26 +15,33 @@ h1 {
   color: red;
 }
 
+/* pre-bootstrap
+
 .text-field {
   width: 100%;
   height: 20em;
   font-size: 1.5em;
-}
+} */
 
-::placeholder {
+/* ::placeholder {
   color: blue;
-}
+} */
 
 .btn-wrapper {
+  margin-top: 0;
   text-align: start;
 }
+
+
+
+/* pre-bootstrap
 
 .btn-element {
   background-color: green;
   color: white;
   font-size: 1.5em;
   padding: 5px 10px;
-}
+} */
 
 .dark-mode {
   background-color: #212124;
